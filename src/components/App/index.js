@@ -14,6 +14,7 @@ import AccountPage from '../Account';
 import AdminPage from '../Admin';
  
 import * as ROUTES from '../../constants/routes';
+
  
 const App = () => (
   <Router>
@@ -21,7 +22,7 @@ const App = () => (
       <Navigation />
  
       <hr />
- 
+      <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
       {/* <Route exact path={ROUTES.LANDING} component={LandingPage} />
       <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
       <Route path={ROUTES.SIGN_IN} component={SignInPage} />

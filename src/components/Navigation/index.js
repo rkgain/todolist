@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
- 
+import './nav.css';
 import * as ROUTES from '../../constants/routes';
  
 const Navigation = () => (
   <div>
-    <ul>
+
+<header className="header">
+		<h1 className="logo"><a href="#">Flexbox</a></h1>
+      <ul className="main-nav">
       <li>
         <Link to={ROUTES.SIGN_IN}>Sign In</Link>
       </li>
@@ -21,7 +24,11 @@ const Navigation = () => (
       <li>
         <Link to={ROUTES.ADMIN}>Admin</Link>
       </li>
-    </ul>
+      </ul>
+	</header> 
+
+
+    
   </div>
 );
  
