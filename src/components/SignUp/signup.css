@@ -7,7 +7,7 @@
   }
   
   body {
-    background: #c1bdba;
+    background: #d6d6d6fa;
     font-family: 'Titillium Web', sans-serif;
   }
   
@@ -23,7 +23,7 @@
   
   .form {
     background: rgba(19, 35, 47, 0.9);
-    padding: 40px;
+    padding: 20px;
     max-width: 600px;
     margin: 40px auto;
     border-radius: 4px;
@@ -33,7 +33,7 @@
   .tab-group {
     list-style: none;
     padding: 0;
-    margin: 0 0 40px 0;
+    margin: 0 0 10px 0;
   }
   .tab-group:after {
     content: "";
@@ -69,9 +69,9 @@
   
   h1 {
     text-align: center;
-    color: #ffffff;
+    color: #179b77;
     font-weight: 300;
-    margin: 0 0 40px;
+    margin: 0 0 10px;
   }
   
   label {
@@ -131,7 +131,7 @@
   
   .field-wrap {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   
   .top-row:after {
@@ -152,7 +152,7 @@
     border: 0;
     outline: none;
     border-radius: 0;
-    padding: 15px 0;
+    padding: 5px 0;
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
