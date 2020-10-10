@@ -6,7 +6,6 @@ import { SignUpLink } from '../SignUp';
 import {ForgotPasswordLink} from '../PasswordForget';
 import * as ROUTES from '../../constants/routes';
 import Loader from '../UI/Loader';
-import { logDOM } from '@testing-library/react';
 
 const SignUpPage = () => (
     <div >
@@ -34,6 +33,7 @@ class SignUpBase extends Component {
                 this.props.history.push(ROUTES.HOME)
             })
             .catch(error => {
+                console.log({...error});
                 this.setState({ error ,loader:false});
             })
         event.preventDefault();
